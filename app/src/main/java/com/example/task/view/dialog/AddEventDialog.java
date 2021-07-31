@@ -24,5 +24,6 @@ public class AddEventDialog  extends Dialog {
         window.setLayout(ConstraintLayout.LayoutParams.MATCH_PARENT, ConstraintLayout.LayoutParams.MATCH_PARENT);
 
         setContentView(R.layout.dialog_add_event);
+
     }
 }

@@ -5,6 +5,7 @@ import com.example.task.Utility.api_utility.ServicesApi.IgToH;
 
 import okhttp3.ResponseBody;
 import retrofit2.Call;
+import retrofit2.http.Query;
 
 public class ApiProvider {
 
@@ -27,9 +28,9 @@ public class ApiProvider {
 
 
 
-  public Call<ResponseBody> convertGtoH(){
+  public Call<ResponseBody> convertGtoH(String date  , int number){
 
-       return ApiConfig.getInstance().getRetrofit(false).create(IgToH.class).convertGtoH();
+       return ApiConfig.getInstance().getRetrofit(false).create(IgToH.class).convertGtoH(date , number);
     }
 
 

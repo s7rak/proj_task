@@ -21,15 +21,14 @@ public class HomeViewModel extends ViewModel {
         return hajjiLiveData;
     }
 
-    public void getHajjiDate(){
+    public void getHajjiDate(String date , int number){
 
-        ApiProvider.getInstance().convertGtoH().enqueue(new Callback<ResponseBody>() {
+        ApiProvider.getInstance().convertGtoH(date , number).enqueue(new Callback<ResponseBody>() {
             @Override
             public void onResponse(@NotNull Call<ResponseBody> call, @NotNull Response<ResponseBody> response) {
 
-
                 // check is stressful
-                if (response.code() == 200) {
+                if (response.code() == 200 && response.body() != null) {
 
                     try {
 

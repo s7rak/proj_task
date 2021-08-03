@@ -30,6 +30,17 @@ public class Event implements Serializable {
     private String serverDatetime ;
 
 
+    public Event(String eventName, String eventDescription, String gregorianDate, String hijriDate, String serverDatetime) {
+        this.eventName = eventName;
+        this.eventDescription = eventDescription;
+        GregorianDate = gregorianDate;
+        HijriDate = hijriDate;
+        this.serverDatetime = serverDatetime;
+    }
+
+    public Event() {
+    }
+
     public int getId() {
         return id;
     }

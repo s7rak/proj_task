@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">Task</string>
-    <string name="dd_mm_yyyy">DD-MM-YYYY</string>
-    <string name="convert">Convert</string>
+    <string name="dd_mm_yyyy">سنة-شهر-يوم</string>
+    <string name="convert">تحويل</string>
+    <string name="desc">وصف</string>
+    <string name="confirm">تأكيد</string>
+    <string name="enter_name_event">ادخل الاسم</string>
+    <string name="event_name">الاسم: </string>
+    <string name="event_description">الوصف </string>
+    <string name="server_date_time" >تاريخ الاضافة: </string>
+    <string name="hijri_date" >التاريخ الهجري :</string>
+    <string name="gregorian_date">التاريخ الميلادي: </string>
+
 </resources>
+

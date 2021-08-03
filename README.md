@@ -21,10 +21,10 @@ ID, event_name, event_description, Gregorian_date, Hijri_date, server_datetime
 
 # Technologies
 
-*Retrofit
-*Room
-*Recycle view
-*MVVM
-*Viewbinding
-*Databinding
-*Multiple languages (English , Arabic)
+-Retrofit
+-Room
+-Recycle view
+-MVVM
+-Viewbinding
+Databinding
+-Multiple languages (English , Arabic)

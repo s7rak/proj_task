@@ -26,5 +26,5 @@ ID, event_name, event_description, Gregorian_date, Hijri_date, server_datetime
 -Recycle view
 -MVVM
 -Viewbinding
-Databinding
+-Databinding
 -Multiple languages (English , Arabic)

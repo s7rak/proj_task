@@ -27,3 +27,4 @@ ID, event_name, event_description, Gregorian_date, Hijri_date, server_datetime
 *MVVM
 *Viewbinding
 *Databinding
+*Multiple languages (English , Arabic)
